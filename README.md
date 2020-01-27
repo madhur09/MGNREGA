@@ -29,6 +29,14 @@ see the list of projects allotted to each member with their status (APPROVED/REJ
 complaint/feedback to GPM and BDO and can see all the complaint(s) filed by the member itself.
 
 
+Login credentials for BDO
+---
+```   
+email: madhurmittal275@gmail.com
+password: Maddy
+
+```
+
 Setup for Running the Project
 ---
 ```   
