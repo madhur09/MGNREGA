@@ -54,9 +54,14 @@ Setup for Running the Project
 Setup for Running test cases
 ---
 ```
-For running test cases
+1. Open the project MGNREGA
+2. Activate virtual environment
+    -> source venv/bin/activate
+3. Move to src folder
+    -> cd venv/src
+4. For running test cases
     -> coverage run -m pytest
-For coverage result
+5. For coverage result
     -> coverage report -m block_development_officer.py member.py run.py schema.py gram_panchayat_member.py
 ```
 
@@ -76,12 +81,10 @@ Key Entities in Code
 
 Dependencies
 ----
-1. **sqlite3**: database connection and queries execution of sqlite3
+1. **sqlite3**: database connection and queries execution of sqlite3.    
 
-2. **pytest**: running test cases
+2. **pytest**: software test framework for running test cases.
 
-3. **mock**: mocking data for test cases
+3. **mock**: mocking framework is a tool that will help to generate stubs and mocks.
 
-4. **coverage**: generate report of line coverage for test cases
-
-[Project Doc]: https://docs.google.com/document/d/13SEqYxdvtYwUFO-XHNDG9_7hXKbOunJDsURZevZUAis/edit?ts=5e2546f9
+4. **coverage**: framework for measuring coverage for test cases.
