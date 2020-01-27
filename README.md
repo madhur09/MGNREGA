@@ -8,7 +8,7 @@ This is the python project with sqlite compatibility.
 
 ### Project Doc
 
-Project documentation link : https://docs.google.com/document/d/13SEqYxdvtYwUFO-XHNDG9_7hXKbOunJDsURZevZUAis/edit?ts=5e2546f9
+Project documentation link : [Documentation file](https://docs.google.com/document/d/13SEqYxdvtYwUFO-XHNDG9_7hXKbOunJDsURZevZUAis/edit?ts=5e2546f9)
 
 
 ### Database File
@@ -76,8 +76,12 @@ Key Entities in Code
 
 Dependencies
 ----
-1. **sqlite3**:
-    - **connect**: generate connection object with database
-2. **datetime**:
-    - **date**: manipulate just date( Month, day, year)
-    - **datetime**: manipulate combination of time and date (Month, day, year, hour, second, microsecond)
+1. **sqlite3**: database connection and queries execution of sqlite3
+
+2. **pytest**: running test cases
+
+3. **mock**: mocking data for test cases
+
+4. **coverage**: generate report of line coverage for test cases
+
+[Project Doc]: https://docs.google.com/document/d/13SEqYxdvtYwUFO-XHNDG9_7hXKbOunJDsURZevZUAis/edit?ts=5e2546f9
