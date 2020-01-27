@@ -11,6 +11,10 @@ This is the python project with sqlite compatibility.
 Project documentation link : https://docs.google.com/document/d/13SEqYxdvtYwUFO-XHNDG9_7hXKbOunJDsURZevZUAis/edit?ts=5e2546f9
 
 
+### Database File
+Database file is present at location 'MGNREGA/venv/src' with name as 'database.db'
+
+
 ### Different Roles(Level) in project 
 
 **BDO(Block Development Officer):** This role is like Admin, where admin can perform CRUD operation for GPM and 
